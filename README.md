@@ -1,41 +1,41 @@
-📊 About the Dataset
+## 📊 About the Dataset
 
-🚢 Context
-This dataset contains information about the passengers aboard the RMS Titanic, which tragically sank on its maiden voyage in 1912 after hitting an iceberg 🧊.
-The dataset is widely used for teaching and practicing classification algorithms in machine learning 🤖.
+### 🚢 Context
 
-📦 Content
-The goal is to predict survival based on a variety of features such as age, gender, class, and more.
-It’s one of the most famous datasets in the data science community for binary classification (Survived or Not Survived).
+This dataset contains information about passengers aboard the **RMS Titanic**, which tragically sank during its maiden voyage in **1912** after colliding with an iceberg 🧊.  
+It is one of the most widely used datasets in the data science community and serves as a benchmark for practicing **binary classification** problems. 🤖
 
-🧾 Columns Explained:
-🆔 PassengerId: Unique ID for each passenger
+---
 
-⚰️ Survived: Survival status (0 = No, 1 = Yes)
+### 📦 Content
 
-🎟️ Pclass: Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd)
+The goal is to build a model that predicts **whether a passenger survived** the disaster based on features like age, sex, class, family size, and fare paid.  
+This dataset is a great starting point for learning classification techniques, feature engineering, and handling missing data.
 
-🧑 Name: Full name of the passenger
+---
 
-🚻 Sex: Gender of the passenger (male / female)
+### 🧾 Columns Explained:
 
-🎂 Age: Age of the passenger in years
+- 🆔 `PassengerId` – Unique identifier for each passenger  
+- ⚰️ `Survived` – Survival status (`0` = No, `1` = Yes)  
+- 🎟️ `Pclass` – Ticket class (`1` = 1st, `2` = 2nd, `3` = 3rd)  
+- 🧑 `Name` – Full name of the passenger  
+- 🚻 `Sex` – Gender (`male` / `female`)  
+- 🎂 `Age` – Age of the passenger in years  
+- 👶 `SibSp` – Number of siblings or spouses aboard  
+- 🧒 `Parch` – Number of parents or children aboard  
+- 🎫 `Ticket` – Ticket number  
+- 💵 `Fare` – Fare paid for the ticket  
+- 🛏️ `Cabin` – Cabin number (many missing values)  
+- 🌍 `Embarked` – Port of Embarkation:
+  - `C` = Cherbourg  
+  - `Q` = Queenstown  
+  - `S` = Southampton  
 
-👶 SibSp: Number of siblings or spouses aboard
+---
 
-🧒 Parch: Number of parents or children aboard
+### 📉 Target Variable
 
-🎫 Ticket: Ticket number
+- **`Survived`** – The primary feature to predict (`0` = did not survive, `1` = survived)
 
-💵 Fare: Amount of fare paid
-
-🛏️ Cabin: Cabin number (may have many missing values)
-
-🌍 Embarked: Port of Embarkation
-  - C = Cherbourg
-  - Q = Queenstown
-  - S = Southampton
-
-📉 Target Variable
-Survived: The main variable we try to predict (0 = did not survive, 1 = survived)
-
+---
